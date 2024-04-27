@@ -1,6 +1,6 @@
 body{
-  overflow: hidden;
-  width: 100vw;
+  overflow-x: hidden;
+  height: auto;
 }
 .addanothercss{
     transition-duration: 1s;
@@ -8,4 +8,7 @@ body{
 .anothercss{
   transform: translateX(70vw);
 
+}
+.singupform{
+  background: linear-gradient(180deg, #194b80, #182c55);
 }
