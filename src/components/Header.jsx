@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div className='bg-white pt-7 lg:flex lg:items-center  justify-center'>
             <div className='lg:flex flex-col lg:w-[50%] mx-auto'>
-                <div className='  px-[10px] py-[5px] lg:py-[15px]'>
+                <div className='px-[10px] py-[5px] lg:py-[15px]'>
                     <div className='bg-[#f5f5f5] items-center gap-2  flex rounded-[10px] text-[30px] text-[#194a81] px-2 lg:py-3 lg:border-l-[5px] border-[#194a81]'>
                         <div className='w-[40px] h-[40px] text-[34px] font-bold'>
                             <FaSearch />

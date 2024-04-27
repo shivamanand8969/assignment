@@ -4,8 +4,6 @@ import { GrUserWorker } from "react-icons/gr";
 import { MdFindInPage } from "react-icons/md";
 import { GoVideo } from "react-icons/go";
 import { FaSignInAlt } from "react-icons/fa";
-
-
 import { FaHome } from "react-icons/fa";
 
 const Navbar = () => {

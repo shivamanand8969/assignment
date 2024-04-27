@@ -1,9 +1,8 @@
 import React from 'react'
+import Crawsel from './Crawsel'
 import { IoBagRemoveSharp } from "react-icons/io5";
-import CountryCard from './CountryCard';
-import { country } from '../mocData/countrydata';
 
-const JobReason = () => {
+const JobsOfweak = () => {
     return (
         <div className='flex flex-col gap-5 pt-12 lg:w-[80%] lg:mx-auto'>
             <div className='px-[10px] py-[5px] lg:py-[15px]'>
@@ -15,17 +14,10 @@ const JobReason = () => {
                 </div>
             </div>
             
-            <div className='flex flex-wrap  justify-around gap-y-[19px]'>
-                 {
-                    country.map((vlaue)=>{
-                       return <CountryCard img={vlaue.img} name={vlaue.name}/>
-                    })
-                 }
-
-            </div>
-
+                       
+          <Crawsel/>
         </div>
     )
 }
 
-export default JobReason
+export default JobsOfweak
