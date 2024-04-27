@@ -2,7 +2,7 @@ import React from 'react'
 
 const CardForCrawsel = ({img}) => {
   return (
-    <div className=''>
+    <div className='ml-1'>
           <img src={img} className='w-[220px] h-[148px] rounded-[10px] border-[1px] border-[#007bff]'/>
          <div className='bg-white px-[16px] py-[8px] rounded-br-[10px] rounded-bl-[10px] w-[220px]'>
          <h3 className='text-[18px] font-semibold text-[#194a81] '>Need Painter in ...</h3>

@@ -11,7 +11,8 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className='h-[70px]  flex items-center justify-between px-5 shadow-lg '>
+           
+             <nav className='h-[70px]  flex items-center justify-between px-5 shadow-lg '>
                 <div className='border-2 border-[#194a81] rounded-[20px] w-[200px] h-[50px] flex items-center justify-center'>
                     <img src='https://overseas.ai/frontend/logo/logo_en.gif' className='mx-w-[236px] h-[36px] ' />
                 </div>
@@ -52,7 +53,7 @@ const Navbar = () => {
                 </div>
 
             </nav>
-            <div className={`w-[70vw] md:w-[60vw] h-[90vh] float-right bg-slate-200 flex items-center justify-center flex-col gap-4 absolute right-0 addanothercss ${!isSideBarTrue ? "anothercss" :""}`}>
+            <div className={`w-[70vw] md:w-[60vw] h-[90vh] float-right bg-slate-200 flex items-center justify-center flex-col gap-4 absolute right-0 addanothercss  ${!isSideBarTrue ? "anothercss" :""}`}>
             <ul className='flex flex-col gap-5 items-center  '>
                         <li className='w-[152px] h-[38px] rounded-[20px] border-[#194a81] border-b-[2px] hover:bg-[#194a81] hover:text-white  '><a href='#' className='flex w-[152px] h-[33px] items-center justify-center gap-1' >
                             <div className='text-[23px] '><FaHome /></div>
@@ -87,6 +88,7 @@ const Navbar = () => {
                     </ul>
 
             </div>
+           
         </>
     )
 };

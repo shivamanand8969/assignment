@@ -15,14 +15,14 @@ const Header = () => {
                     </div>
                 </div>
                 <div className='flex flex-col gap-1 lg:gap-4 items-center  mt-[30px] lg:flex-wrap lg:w-[100%]'>
-                    <div className='w-[90%] lg:flex  lg:w-[100%] lg:justify-around'>
+                    <div className='w-[90%] flex flex-col lg:flex-row items-center lg:w-[100%] lg:justify-around'>
                         <input type='text' placeholder='Search Job by Title' className='border-[2px] w-[90%] lg:w-[49%] outline-none h-[36px] pl-3 border-[#194a813b] text-[17px] rounded-[20px] text-[#194a81]' />
 
                     <select className='border-[2px] mt-3 lg:mt-0 w-[90%] lg:w-[49%] h-[36px] px-3 border-[#194a813b] outline-none text-[17px] rounded-[20px]  text-[#194a81]'>
                         <option className='text-[#194a81]'>Select Something</option>
                     </select>
                     </div>
-                    <div className='w-[90%] lg:flex lg:w-[100%] lg:justify-around'>
+                    <div className='w-[90%]  flex flex-col lg:flex-row items-center lg:w-[100%] lg:justify-around'>
                     <select className='border-[2px] mt-3 lg:mt-0 w-[90%] lg:w-[49%] h-[36px] px-3 border-[#194a813b] outline-none text-[17px] rounded-[20px]  text-[#194a81]'>
                         <option className='text-[#194a81]'>Select Something</option>
                     </select>
